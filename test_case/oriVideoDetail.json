@@ -1,0 +1,16 @@
+{
+  "abr": "132300",
+  "aenc": "AAC",
+  "asr": "44100",
+  "duration": 108,
+  "fileSize": 46689817,
+  "format": "mp4",
+  "fps": "25.000",
+  "label": "n01",
+  "quality": "uhd",
+  "resolution": "1080x1440",
+  "url": "OO",
+  "vbr": "5",
+  "venc": "AVC",
+  "videoDefinitionScore": "97.6"
+}

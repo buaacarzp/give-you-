@@ -1,0 +1,254 @@
+{
+  "VideoQuaInfo": {
+    "oldVideoWeight": 0.0,
+    "newVideoWeight": 1.0,
+    "weightNValue": 1.0,
+    "keyMap": {
+      "p00": "H19",
+      "n00": "L4",
+      "n01": "L21",
+      "n02": "M15",
+      "n03": "M22",
+      "n04": "L5"
+    },
+    "colMapConfig": {
+      "p00": "19",
+      "n00": "4",
+      "n01": "21",
+      "n02": "15",
+      "n03": "22",
+      "n04": "5"
+    },
+    "verticalVideoDefinitionScoreMap": {
+      "M1": 0.0,
+      "N1": 24.0,
+      "M2": 24.0,
+      "N2": 80.0,
+      "M3": 80.0,
+      "N3": 101.0
+    },
+    "horizontalVideoDefinitionScoreMap": {
+      "M1": 0.0,
+      "N1": 26.0,
+      "M2": 26.0,
+      "N2": 80.0,
+      "M3": 80.0,
+      "N3": 101.0
+    },
+    "VideoQuality": [
+      {
+        "level": "L",
+        "weight": 1.0,
+        "qualityType": [
+          {
+            "key": "L4",
+            "value": 1,
+            "weight": 1.4
+          },
+          {
+            "key": "L5",
+            "value": 1,
+            "weight": 1.6
+          },
+          {
+            "key": "L15",
+            "value": 1,
+            "weight": 1.3
+          },
+          {
+            "key": "L19",
+            "value": 1,
+            "weight": 1
+          },
+          {
+            "key": "L21",
+            "value": 1,
+            "weight": 1.4
+          },
+          {
+            "key": "L22",
+            "value": 1,
+            "weight": 1.3
+          }
+        ]
+      },
+      {
+        "level": "M",
+        "weight": 1.0,
+        "qualityType": [
+          {
+            "key": "M4",
+            "value": 1,
+            "weight": 1
+          },
+          {
+            "key": "M5",
+            "value": 1,
+            "weight": 1.1
+          },
+          {
+            "key": "M15",
+            "value": 1,
+            "weight": 0.8
+          },
+          {
+            "key": "M19",
+            "value": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "M21",
+            "value": 1,
+            "weight": 1
+          },
+          {
+            "key": "M22",
+            "value": 1,
+            "weight": 0.8
+          }
+        ]
+      },
+      {
+        "level": "H",
+        "weight": 1.0,
+        "qualityType": [
+          {
+            "key": "H4",
+            "value": 1,
+            "weight": 0.4
+          },
+          {
+            "key": "H5",
+            "value": 1,
+            "weight": 0.6
+          },
+          {
+            "key": "H15",
+            "value": 1,
+            "weight": 0.3
+          },
+          {
+            "key": "H19",
+            "value": 1,
+            "weight": 0
+          },
+          {
+            "key": "H21",
+            "value": 1,
+            "weight": 0.4
+          },
+          {
+            "key": "H22",
+            "value": 1,
+            "weight": 0.3
+          }
+        ]
+      }
+    ],
+    "VideoQualityDownGrade": {
+      {"AVC": 
+        [{"1080P": {
+          "oriVideoDetails": {
+            "vbr": 3500000,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 2000000,
+            "videoQuality": "M"
+          }
+        }},
+        {"720P": {
+          "oriVideoDetails": {
+            "vbr": 2500000,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 1300000,
+            "videoQuality": "M"
+          }
+        }},
+        {"480P": {
+          "oriVideoDetails": {
+            "vbr": 0,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 0,
+            "videoQuality": "M"
+          }
+        }},
+        {"360P": {
+          "oriVideoDetails": {
+            "vbr": 0,
+            "videoQuality": "L"
+          },
+          "VideoDetails": {
+            "vbr": 0,
+            "videoQuality": "L"
+          }
+        }}]
+      },
+      "HEVC": {
+        "1080P": {
+          "oriVideoDetails": {
+            "vbr": 3500000,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 2000000,
+            "videoQuality": "M"
+          }
+        },
+        "720P": {
+          "oriVideoDetails": {
+            "vbr": 2500000,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 1300000,
+            "videoQuality": "M"
+          }
+        },
+        "480P": {
+          "oriVideoDetails": {
+            "vbr": 0,
+            "videoQuality": "M"
+          },
+          "VideoDetails": {
+            "vbr": 0,
+            "videoQuality": "M"
+          }
+        },
+        "360P": {
+          "oriVideoDetails": {
+            "vbr": 0,
+            "videoQuality": "L"
+          },
+          "VideoDetails": {
+            "vbr": 0,
+            "videoQuality": "L"
+          }
+        }
+      },
+
+      "video_source_type": "VideoDetails"
+    }
+  },
+  "videoCpInfo": [],
+  "videoAfterMapping": {
+    "tagMappingMode": "2",
+    "defaultTagWeight": 0.7
+  },
+  "defaultQualityAttr": {
+    "//": "1.华为视频，uc链接无法分析的；2.算法分析失败的；3.非算法质量模型分析范围（5分类5cp软通）内且软通标注前的；以上物料运营提供5分打底",
+    "defaultQualityScore": "5.0",
+    "defaultRiskScore": "0"
+  },
+  "videoQualityMapping": [
+    {
+      "cpId": "1217",
+      "sourceList": ["华为音乐"],
+      "quality": "H19"
+    }
+  ]
+}

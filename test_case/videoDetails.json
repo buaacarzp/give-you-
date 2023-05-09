@@ -1,0 +1,102 @@
+[
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 2636386,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "uhd",
+    "resolution": "1080x1920",
+    "url": "F",
+    "vbr": "5",
+    "venc": "HEVC"
+  },
+
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 1583680,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "fhd",
+    "resolution": "720x1280",
+    "url": "E",
+    "vbr": "5",
+    "venc": "AVC"
+  },
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 1020826,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "hd",
+    "resolution": "480x854",
+    "url": "D",
+    "vbr": "3",
+    "venc": "AVC"
+  },
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 828631,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "sd",
+    "resolution": "360x640",
+    "url": "C",
+    "vbr": "5",
+    "venc": "AVC"
+  },
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 2636386,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "uhd",
+    "resolution": "2080x10000",
+    "url": "K",
+    "vbr": "1",
+    "venc": "AVC"
+  },
+  
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 2636386,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "uhd",
+    "resolution": "1080x1920",
+    "url": "A",
+    "vbr": "3",
+    "venc": "AVC"
+  },
+  {
+    "abr": "64157",
+    "aenc": "AAC",
+    "asr": "44100",
+    "duration": 10,
+    "fileSize": 2636386,
+    "format": "mp4",
+    "fps": "28.000",
+    "quality": "ori",
+    "resolution": "1080x1920",
+    "url": "A",
+    "vbr": "3",
+    "venc": "AVC"
+  }
+]
